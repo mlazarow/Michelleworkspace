@@ -1,0 +1,80 @@
+
+
+.charactericon {
+width:100px;
+height:100px;
+border-radius:50%;
+font-size:26px;
+color:white;
+font-family: Helvetica;
+line-height:100px;
+text-align:center;
+background:orange;
+
+
+	}
+.col-char{
+	width: 25%;
+	text-align: center;
+    padding: 0px;
+    float: left;
+}
+
+.col-statement{
+    width: 50%;
+    text-align: center;
+    padding: 0px;
+    border: 1px solid #ffffff;
+    float: left;
+}
+
+
+#viewstatement{
+	background-color: blue;
+	display: inline-block;
+}
+
+#hillary {font-size: 20px;
+color: white;
+font-family: Helvetica;
+}
+
+#trump {font-size: 20px;
+color: white;
+font-family: Helvetica;
+}
+
+.circle2{
+	width:20px;
+height:20px;
+border-radius:50%;
+background:orange;
+display:inline-block;
+}
+
+#statementhead {
+	font-family: Helvetica;
+	color:white;
+	font-size: 18px;
+	text-align: center;
+	}
+
+#truth{
+	background-color: green;
+	color:white;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+.fib{
+	background-color: green;
+	color:white;
+	font-family: Helvetica;
+	text-align: center;
+
+}
+
+#statement {
+
+
+}

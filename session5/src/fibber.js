@@ -18,9 +18,17 @@ var fibber = {};
 //this is a function that can be called using fibber.init();
 fibber.initialize = function(){
 
-	$("#startbtn").on("click", fibber.start);
 
 };
+
+
+fibber.add = function(x,y){
+
+	alert(x+y);
+};
+
+fibber.add(2,3);
+fibber.add(5,1);
 
 fibber.start = function(){
 	alert("Start Button Clicked...");
