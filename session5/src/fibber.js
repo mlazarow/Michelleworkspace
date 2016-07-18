@@ -1,39 +1,55 @@
-/*
-SESSION 5 - Coding Basics
-
-1. Setting text of a div
-2. If/then logic
-3. Using the console
-4. Creating objects to store data
-5. Handling other events besides "click"
-
-*/
 
 
-//var is used to create variables
-//using the {} to create a variable that is type object
 var fibber = {};
 
 
-//this is a function that can be called using fibber.init();
 fibber.initialize = function(){
 
+	
+	$("#startbtn").click(function(){
+		fibber.viewStatement();	
+	});
+
+
+	
+	$(".truth-btn").click(function(){
+		fibber.processDecision("truth");	
+	});
+	$(".fib-btn").click(function(){
+		fibber.processDecision("fib");
+	});
 
 };
 
 
-fibber.add = function(x,y){
 
-	alert(x+y);
+
+
+fibber.viewStatement = function(){
+
+	
+	var statementText = "coding is hard.";
+	var statementContext = "-Michelle Lazarow, 2016"
+
+	$("#statement-text").text(statementText);
+	$("#statement-context").text(statementContext);
+
 };
 
-fibber.add(2,3);
-fibber.add(5,1);
 
-fibber.start = function(){
-	alert("Start Button Clicked...");
+
+ 
+fibber.processDecision = function(decision){
+
+	
+	if(decision == "truth"){
+		alert("yup. the thought power needed is very high");
+	}
+	if(decision == "fib"){
+		alert("kudos on the confidence, but no. it is quite hard.");
+	}
+
 };
-
 
 
 
